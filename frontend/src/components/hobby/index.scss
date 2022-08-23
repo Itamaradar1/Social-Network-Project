@@ -1,0 +1,21 @@
+.hobby {
+  padding: 9px 16px 7px 16px;
+  background-color: #F2F2F2;
+  border-radius: 15px;
+  margin-left: 4px;
+  margin-right: 4px;
+  display: flex;
+  align-items: center;
+
+  .hobby-label {
+    font-size: 14px;
+  }
+
+  .x {
+    padding-left: 15px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+.received-request {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  .left {
+    display: flex;
+
+    .userPhoto {
+      width: 40px;
+      height: 40px;
+    }
+
+    .signature {
+      margin-left: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .author {
+        font-size: 14px;
+        white-space: nowrap;
+      }
+      .time {
+        font-size: 14px;
+        color: grey;
+        white-space: nowrap;
+      }
+    }
+  }
+  .right {
+    display: flex;
+    justify-content: flex-end;
+
+    .tick {
+      background: linear-gradient(132.96deg, #C468FF 3.32%, #6E91F6 100%);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .x {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 40px;
+      height: 40px;
+      background-color: #F2F2F2;
+      border-radius: 50%;
+      margin-left: 8px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

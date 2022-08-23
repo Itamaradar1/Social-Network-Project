@@ -1,0 +1,17 @@
+---------------->api/social/followers/toggle-follow/<int:user_id>/ POST: Toggle follow/unfollow a user<-------------------
+
+---------------->api/social/followers/followers/ GET: List of all the logged in user’s followers <-------------------
+
+---------------->api/social/followers/following/ GET: List of all the people the current logged in user is following<-------------------
+
+api/social/friends/request/<int:user_id>/ POST: Send friend request to another user
+
+api/social/friends/requests/<int:friend_request_id>/ GET: Get details of a friend request
+
+api/social/friends/requests/<int:friend_request_id>/ PATCH: Accept or Reject an open friend request
+
+api/social/friends/requests/<int:friend_request_id>/ DELETE: Delete a friend request
+
+api/social/friends/ GET: List all accepted friends
+
+--------------> api/users/?search=<str:search_string> GET: Search users <-------------------

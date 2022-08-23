@@ -1,0 +1,25 @@
+$linear-gradiant: linear-gradient(120deg, #b64cf8 0%, #3365fa);
+
+.Button_violet {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 16px;
+  border-radius: 30px;
+  border: 1px lightgray solid;
+  color: white;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(132.96deg, #C468FF 3.32%, #6E91F6 100%);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  &:hover {
+    cursor: pointer;
+    font-weight: bold;
+  }
+}

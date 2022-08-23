@@ -1,0 +1,82 @@
+.greyNavbar {
+  width: 100%;
+  // position: fixed;
+  top: 80px;
+  mix-blend-mode: normal;
+  // border: 1px solid rgb(235,235,236);
+  border: 1px solid rgb(235, 235, 236);
+  // opacity: 0.05;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    fill: black;
+    color: black;
+    width: 1354px;
+
+    .ul-left {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      margin-left: 100px;
+
+      .li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+
+        .magnfGlass {
+          width: 20px;
+          height: 20px;
+        }
+        .search-posts {
+          color: rgb(124, 124, 125);
+          margin-left: 11px;
+          outline: none;
+          border: none;
+          font-size: 16px;
+          font-family: 'Roboto', sans-serif;
+        }
+      }
+
+
+    }
+
+    .ul-right {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 230px;
+      padding: 0;
+      padding-right: 11px;
+      margin: 0;
+      margin-right: 100px;
+
+      .li {
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 2px solid rgba(0, 0, 0, 0);
+        color: rgb(124, 124, 125);
+
+        &:hover {
+          border-bottom: 2px solid black;
+          cursor: pointer;
+          color: black;
+        }
+      }
+    }
+  }
+}

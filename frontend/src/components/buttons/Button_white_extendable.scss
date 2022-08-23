@@ -1,0 +1,27 @@
+$linear-gradiant: linear-gradient(120deg, #b64cf8 0%, #3365fa);
+
+.button-white-extendable {
+  align-items: center;
+  background: transparent;
+  background: white;
+  border-radius: 30px;
+  border: 1px lightgray solid;
+  color: black;
+  display: flex;
+  font-size: 10px;
+  justify-content: center;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  min-width: fit-content;
+  padding-bottom: 16px;
+  padding-top: 20px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  width: 100%;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #F2F2F2;
+  }
+}

@@ -1,0 +1,25 @@
+
+
+.Button_long {
+  // height: 100%;
+  // width: 45%;
+  padding: 16px 33px 12px 33px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.83333px;
+  border: 1px lightgray solid;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  font-size: 10px;
+  font-weight: bold;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #F2F2F2;
+  }
+}
+
+
